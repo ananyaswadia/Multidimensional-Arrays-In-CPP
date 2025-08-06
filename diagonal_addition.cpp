@@ -31,8 +31,8 @@ int main(){
     cout<<"Addition of diagonal elements is: "<<endl;
     for (int i=0; i<r1;i++){
         for(int j=0;j<c1;j++){
-            if(m[i]==m[j]){
-                sum=sum+m[i][j];
+            if(i==j){
+                sum+=m[i][j];
             }
         }
     }
@@ -60,3 +60,4 @@ Matrix 1 is:
 Addition of diagonal elements is:
 15
 */
+
