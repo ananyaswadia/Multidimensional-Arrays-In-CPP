@@ -22,7 +22,7 @@ int main(){
         cout<<"Invalid rows or columns.";
     }
     else {
-    cout<<"Enter elements for a 3x3 matrix-1: "<<endl;
+    cout<<"Enter elements for a matrix-1: "<<endl;
     for (int i=0 ; i<r1;i++){
         for(int j=0;j<c1;j++){
             cin>>m1[i][j];
@@ -38,7 +38,7 @@ int main(){
         cout<<endl;
     }
    
-    cout<<"Enter elements for a 3x3 matrix-2: "<<endl;
+    cout<<"Enter elements for a matrix-2: "<<endl;
     for (int i=0 ; i<r2;i++){
         for(int j=0;j<c2;j++){
             cin>>m2[i][j];
@@ -106,4 +106,5 @@ Matrix 2 is:
 Multiplication of M1 and M2 is:
 1 4
 15 24
+
 */
